@@ -118,7 +118,6 @@ registerPlugin(
                   const videoURL = `https://www.youtube.com/watch?v=${videoId}`;
                   reply("Youtube Video found, playing: " + videoURL);
                   media.ytdl(videoURL, true);
-                  reply(YOUTUBE_STREAM_ERROR);
                 } else {
                   reply(NO_VIDEO_FOUND);
                 }
