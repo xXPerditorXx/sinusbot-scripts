@@ -9,7 +9,7 @@ registerPlugin(
     vars: [],
   },
   (_, config, meta) => {
-    // Replay messages
+    // Reply messages
     const YOUTUBE_SEARCH_ERR = "An error occurred while searching YouTube.";
     const YOUTUBE_QUERY_ERR =
       "An error occurred while parsing the YouTube response.";
