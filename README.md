@@ -5,7 +5,7 @@ So in this repo you'll find my scripts for Sinusbot, which should hopefully work
 <br><br><br><br>
 
 # Repo Content
-Every of my scripts registers a Sinusbot Command, so keep in mind to use your prefix before the command.
+All my scripts register a Sinusbot Command, so keep in mind to use your prefix before the command.
 <br><br><br>
 **youtube_search.js:**<br>
 Searches with the command `ytsearch` or `yts` via the YouTube API. Afterwards it plays the Video for you.<br>
