@@ -18,6 +18,6 @@ All my scripts register a Sinusbot Command, so keep in mind to use your prefix b
 
 
 **followme.js:** *Original created by Sinusbot Team.* <br>
-The bot follows you in every channel you go, while it never stops playing the stop.
+The bot follows you in every channel you go, while it never stops playing the stop.<br>
 Activate/Deactivate following with `follow`.
 <br><br><br>
