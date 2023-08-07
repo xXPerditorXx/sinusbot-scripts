@@ -11,8 +11,11 @@ All my scripts register a Sinusbot Command, so keep in mind to use your prefix b
 <br><br><br>
 
 **youtube_search.js:** *Get the YouTube Api Key at the [Google Cloud Console](https://console.cloud.google.com/apis/dashboard)* <br>
-Searches with the command `ytsearch` or `yts` via the YouTube API. Afterwards it plays the Video for you.<br>
-`ytsearchdl` and `ytsdl` do almost the same thing, but this time, the Video gets download and imported to Sinusbot first.
+`ytsearch` or `yts` plays a video by searching for it.<br>
+`ytsearchdl` or `ytsdl` searches video, downloads and plays it.<br>
+`qytsearch` or `qyts` searches a video and adds it to the queue<br>
+`qytsearchdl` or `qytsdl` searches a video, downloads it and adds it to the queue.<br>
+
 
 **followme.js:** *Original created by Sinusbot Team.* <br>
 The bot follows you in every channel you go, while it never stops playing the stop.
