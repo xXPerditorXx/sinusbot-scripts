@@ -70,7 +70,7 @@ registerPlugin(
                     query = query.replace(/ /g, '+');
 
                     if (debugmode) {
-                        engine.log('Searchquery: "' + query + '"');
+                        engine.log(`User ${client.name()} searched for "${args.search_query}"`);
                     }
                     http.simpleRequest(
                         {
@@ -101,6 +101,7 @@ registerPlugin(
                             } catch (parseError) {
                                 reply(YOUTUBE_QUERY_ERR);
                                 reply(parseError);
+                                engine.log(parseError);
                             }
                         },
                     );
@@ -124,7 +125,7 @@ registerPlugin(
                     query = query.replace(/ /g, '+');
 
                     if (debugmode) {
-                        engine.log('Searchquery: "' + query + '"');
+                        engine.log(`User ${client.name()} searched for "${args.search_query}"`);
                     }
                     http.simpleRequest(
                         {
@@ -155,6 +156,7 @@ registerPlugin(
                             } catch (parseError) {
                                 reply(YOUTUBE_QUERY_ERR);
                                 reply(parseError);
+                                engine.log(parseError);
                             }
                         },
                     );
@@ -177,7 +179,7 @@ registerPlugin(
                     query = query.replace(/ /g, '+');
 
                     if (debugmode) {
-                        engine.log('Searchquery: "' + query + '"');
+                        engine.log(`User ${client.name()} searched for "${args.search_query}"`);
                     }
                     http.simpleRequest(
                         {
@@ -206,6 +208,7 @@ registerPlugin(
                             } catch (parseError) {
                                 reply(YOUTUBE_QUERY_ERR);
                                 reply(parseError);
+                                engine.log(parseError);
                             }
                         },
                     );
@@ -228,7 +231,7 @@ registerPlugin(
                     query = query.replace(/ /g, '+');
 
                     if (debugmode) {
-                        engine.log('Searchquery: "' + query + '"');
+                        engine.log(`User ${client.name()} searched for "${args.search_query}"`);
                     }
                     http.simpleRequest(
                         {
@@ -257,6 +260,7 @@ registerPlugin(
                             } catch (parseError) {
                                 reply(YOUTUBE_QUERY_ERR);
                                 reply(parseError);
+                                engine.log(parseError);
                             }
                         },
                     );
