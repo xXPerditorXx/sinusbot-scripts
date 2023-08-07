@@ -117,7 +117,7 @@ registerPlugin(
                     let query = '';
 
                     if (!args.search_query) {
-                        reply('Usage: ' + engine.getCommandPrefix() + 'yts <query>');
+                        reply('Usage: ' + engine.getCommandPrefix() + 'qyts <query>');
                         return;
                     }
                     query = args.search_query;
